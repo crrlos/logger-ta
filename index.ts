@@ -13,7 +13,7 @@ export class LoggerTaService extends ConsoleLogger {
     constructor(context: string) {
         super(context,
             {
-                logLevels: loglevels[process.env.LOG_LEVEL.toLowerCase()]
+                logLevels: loglevels[process.env.LOG_LEVEL?.toLowerCase() ?? 'error']
             })
     }
 
