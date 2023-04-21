@@ -1,7 +1,7 @@
 {
   "name": "logger-ta",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Custom logging library for Nestjs extending the default ConsoleLogger class.",
   "keywords": [
     "nestjs",
     "logger",

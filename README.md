@@ -1,3 +1,6 @@
+This library extends the default `ConsoleLogger` class from NestJS to allow
+writing the logs to console and log file. One file per logger instance is created.
+
 **Usage:**
 
 **Import in app.module.ts:**
