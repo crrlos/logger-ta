@@ -16,7 +16,6 @@ writing the logs to console and log file. One file per logger instance is create
 export class AppModule {}
 ```
 
-
 **Create instance in services or components:**
 
 ```
@@ -34,11 +33,19 @@ export class AuthService {
 ```
 
 **Log levels hierarchy:**
+
 ```
 'debug': ['debug', 'log', 'warn', 'error']
 'info': ['log', 'warn', 'error']
 'warn': ['warn', 'error']
 'error': ['error']
 ```
+
 To set log level an environment variable must be declared: `LOG_LEVEL=DEBUG`, if not declared default is `ERROR`
 
+**Compatibility**
+
+| Version | NestJS support |
+| ------- | -------------- |
+| 1.0.5   | 10             |
+| 1.0.4   | 8,9            |

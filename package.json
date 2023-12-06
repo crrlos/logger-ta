@@ -1,6 +1,6 @@
 {
   "name": "logger-ta",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Custom logging library for Nestjs extending the default ConsoleLogger class.",
   "keywords": [
     "nestjs",
@@ -23,12 +23,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@nestjs/common": "^8.2.3",
-    "rxjs": "^7.8.0",
-    "typescript": "^4.5.4"
+    "@nestjs/common": "^10.0.0",
+    "@types/node": "^20.10.3",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.1.3"
   },
-  "rootDir": "/",
-  "devDependencies": {
-    "@types/node": "^17.0.0"
-  }
+  "rootDir": "/"
 }
